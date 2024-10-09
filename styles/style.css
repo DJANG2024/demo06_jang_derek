@@ -1,1 +1,57 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette:
+* Oxford Blue (Text):        #0B2545     
+* Powder Blue (Text #2):     #8DA9C4
+* Yale Blue (Primary):       #134074      
+* Berkeley Blue (Secondary): #13315C    
+* Powder Blue (Accent):      #8DA9C4
+* White                      #FFFFFF
+*/
+
+.bg-info {
+  background-color: #8da9c4 !important; /* Powder Blue for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #0b2545; /* Oxford Blue for brand name & nav links for visibility */
+}
+
+.btn-info {
+  color: #8da9c4; /* For text on info button for contrast */
+  background-color: #13315c; /* Berkeley Blue for button background */
+  border-color: #13315c; /* Berkeley Blue for button border */
+}
+
+.btn-primary {
+  color: #ffffff; /* text */
+  font-size: 90%;
+  background-color: #134074; /*Yale Blue for primary button background */
+  border-color: #8da9c4; /* Powder Blue for border to use as accent */
+  border-width: thick;
+}
+
+body {
+  background-color: #ffffff; /* White for body background to follow the 60% rule */
+}
+
+form {
+  padding: 0rem 1rem;
+}
+.card-body {
+  padding: 0rem 1rem;
+}
+
+#submit {
+  margin: 0rem 1rem;
+}
+
+.navbar-brand {
+  font-family: "Edu AU VIC WA NT Dots", serif; /*change the font name for what you have*/
+  font-size: 2.25rem;
+}
